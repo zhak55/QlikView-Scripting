@@ -1,2 +1,2 @@
 SET path = ''; // Путь для разархивирования файлов  
-EXECUTE $(path)\7za.exe e $(vStore)\test.zip -y -o$(path);
+EXECUTE $(path)\7za.exe e $(path)\test.zip -y -o$(path);
